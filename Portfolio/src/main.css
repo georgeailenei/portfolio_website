@@ -18,6 +18,7 @@ body {
 }
 
 /* CSS variables - you can use these variables anywhere in the project */
+/* Not sure if I will use these colors, remember to choose different color pallete */
 :root {
   --color-bg: #50514f;
   --color-bg-variant: #70c1b3;

@@ -8,6 +8,20 @@ header {
   text-align: center;
   height: 100%;
   position: relative;
-  border: solid 1px rebeccapurple;
 }
-    
+
+/* Download CV & Contact me Buttons */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+/* Social Media Icons */
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
