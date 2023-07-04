@@ -26,7 +26,7 @@ body {
   --color-primary-variant: #1c5d79;
   --color-yellow: #ffe066;
   --color-white: #fff;
-  --color-red: #f25f5c;
+  --color-secondary: #6c757d;
 }
 
 html {
@@ -35,4 +35,12 @@ html {
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+a {
+  color: var(--color-secondary);
+}
+
+a:hover {
+  color: var(--color-white);
 }

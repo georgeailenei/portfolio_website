@@ -25,3 +25,9 @@ header {
   gap: 0.5rem;
   margin-top: 1rem;
 }
+
+p{
+  line-height: 1.25rem;
+  margin-left: 35rem;
+  margin-right: 35rem;
+}

@@ -7,9 +7,25 @@ export const Header = () => {
   return (
     <header>
       <div className="header__container">
-        <h6> Hi, I am</h6>
-        <h1> George Ailenei</h1>
-        <h6> a software developer</h6>
+        <h6>Hi. I am George.</h6>
+        <h1>A developer.</h1>
+        <p>
+          A 31-year-old graduate student from Manchester
+          Metropolitan University. With a background in Business Management, I
+          discovered my passion for programming during my studies in Data
+          Analytics and other technological units. After graduating with top
+          honours, I am deeply interested in technology, design, and the fusion
+          of software engineering with UI/UX.</p> 
+          
+          <p>In addition to my tech pursuits, I
+          enjoy sports, self-development books, economics, and travelling. I
+          enjoy doing different things that help me learn and grow. For example,
+          I like playing sports and being active, which makes me feel good and
+          healthy. I'm excited about the future because I want to use my passion
+          for technology, design, sports, books and economics to do beneficial
+          things.{" "}
+        </p>
+
         <Buttons />
         <Socials />
       </div>
