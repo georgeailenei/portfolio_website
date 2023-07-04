@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       {/* remove the component when you are done testing */}
-      <ListGroup />
+      {/* <ListGroup /> */}
 
       <Header />
       <About />
