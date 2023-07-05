@@ -7,7 +7,7 @@ import profile_picture from "../../assets/images/profile_photo.jpg";
 export const Header = () => {
   return (
     <header>
-      <div className="header__container">
+      <div className="container header__container">
         <h6>Hi. I am George Ailenei.</h6>
         <h1>An aspiring programmer.</h1>
         <div>

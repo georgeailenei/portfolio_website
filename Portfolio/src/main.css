@@ -27,6 +27,10 @@ body {
   --color-yellow: #ffe066;
   --color-white: #fff;
   --color-secondary: #6c757d;
+
+  --container-width-sm: 50%;
+  --container-width-md: 70%;
+  --container-width-lg: 80%;
 }
 
 html {
@@ -43,4 +47,9 @@ a {
 
 a:hover {
   color: var(--color-white);
+}
+
+.container {
+  width: var(--container-width-sm);
+  margin: 0 auto;
 }
