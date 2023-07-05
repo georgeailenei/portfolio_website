@@ -54,4 +54,7 @@ p {
   header .scroll-down {
     display: none;
   }
+  header .container {
+    width: var(--container-width-lg);
+  }
 }
