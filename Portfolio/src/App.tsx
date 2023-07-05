@@ -1,11 +1,11 @@
 import "./App.css";
 import ListGroup from "./components/ListGroup";
 import { Header } from "./components/header/Header";
-import { About } from "./components/about/About";
 import { Work } from "./components/work/Work";
 import { References } from "./components/references/References";
 import { Contact } from "./components/contact/Contact";
 import { Services } from "./components/services/Services";
+import { Navigation } from "./components/nav/Navigation";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       {/* <ListGroup /> */}
 
       <Header />
-      <About />
+      <Navigation />
       <Services />
       <Work />
       <References />
