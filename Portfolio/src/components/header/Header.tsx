@@ -34,6 +34,9 @@ export const Header = () => {
         </div>
         <Buttons />
         <Socials />
+        <a href="#contact" className="scroll-down">
+          Scroll Down
+        </a>
       </div>
     </header>
   );
