@@ -9,7 +9,6 @@ header {
   position: relative;
 }
 
-/* Download CV & Contact me Buttons */
 .buttons {
   display: flex;
   justify-content: center;
@@ -17,7 +16,6 @@ header {
   margin-top: 2rem;
 }
 
-/* Social Media Icons */
 .socials {
   display: flex;
   justify-content: center;
@@ -35,6 +33,11 @@ p {
   margin-top: 2rem;
 }
 
+.profile-picture__position {
+  display: flex;
+  justify-content: center;
+}
+
 .about-text {
   margin-top: 2rem;
 }
@@ -45,4 +48,10 @@ p {
   transform: rotate(90deg);
   right: -10rem;
   font-size: large;
+}
+
+@media screen and (max-width: 600px) {
+  header .scroll-down {
+    display: none;
+  }
 }
