@@ -15,7 +15,7 @@ export const Navigation = () => {
       <a href="#services">
         <MdDesignServices />
       </a>
-      <a href="#worl">
+      <a href="#work">
         <MdWorkHistory />
       </a>
       <a href="#references">

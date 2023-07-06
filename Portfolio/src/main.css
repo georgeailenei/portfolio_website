@@ -55,3 +55,8 @@ a:hover {
   width: var(--container-width-sm);
   margin: 0 auto;
 }
+
+section {
+  height: 100vh;
+  margin-top: 4rem;
+}
