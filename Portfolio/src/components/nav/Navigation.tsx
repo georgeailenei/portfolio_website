@@ -8,7 +8,7 @@ import { MdWorkHistory } from "react-icons/md";
 
 export const Navigation = () => {
   return (
-    <div>
+    <nav>
       <a href="#">
         <SiGooglehome />
       </a>
@@ -24,6 +24,6 @@ export const Navigation = () => {
       <a href="#contact">
         <MdContactSupport />
       </a>
-    </div>
+    </nav>
   );
 };
