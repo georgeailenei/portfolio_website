@@ -21,9 +21,9 @@ export const Navigation = () => {
         <SiGooglehome />
       </a>
       <a
-        href="#services"
-        onClick={() => setActiveNav("#services")}
-        className={activeNav === "#services" ? "active" : ""}
+        href="#experience"
+        onClick={() => setActiveNav("#experience")}
+        className={activeNav === "#experience" ? "active" : ""}
       >
         <MdDesignServices />
       </a>

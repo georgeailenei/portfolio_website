@@ -4,7 +4,7 @@ import { Header } from "./components/header/Header";
 import { Work } from "./components/work/Work";
 import { References } from "./components/references/References";
 import { Contact } from "./components/contact/Contact";
-import { Services } from "./components/services/Services";
+import { Experience } from "./components/experience/Experience";
 import { Navigation } from "./components/nav/Navigation";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
 
       <Header />
       <Navigation />
-      <Services />
+      <Experience />
       <Work />
       <References />
       <Contact />
