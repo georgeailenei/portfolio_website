@@ -1,6 +1,17 @@
 .experience__container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 5rem;
-  font-size: 3rem;
+  font-size: 2rem;
+  border: 1px solid var(--color-secondary);
+  border-radius: 1rem;
+  backdrop-filter: blur(15px);
+  padding: 0.5rem 1rem;
+}
+
+.experience__content {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.experience_details {
+  text-align: center;
 }
