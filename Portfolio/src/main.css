@@ -60,3 +60,7 @@ section {
   height: 100vh;
   margin-top: 4rem;
 }
+
+h1 {
+  font-size: larger;
+}
