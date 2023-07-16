@@ -1,7 +1,16 @@
 #experience {
   padding-top: 4rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   width: var(--container-width-sm);
+}
+
+.text_description {
+  padding-bottom: 2rem;
 }
 
 .experience__container {
@@ -9,11 +18,10 @@
   border: 1px solid var(--color-secondary);
   border-radius: 1rem;
   backdrop-filter: blur(15px);
-  padding: 0.5rem 1rem;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  gap: 2.2rem;
+  width: 100%;
 }
 
-/* You must make the NAV BAR responsive and fix the style for this component */
+.experience_details {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+}

@@ -13,13 +13,17 @@ import { TbSql } from "react-icons/tb";
 export const Experience = () => {
   return (
     <section id="experience">
-      <h1>Skills</h1>
-      <p>As a developer, I possess a diverse skill set that enables me to create
-        innovative and efficient solutions. I constantly strive to stay at the
-        forefront of technological advancements, and my skills reflect my
-        commitment to delivering high-quality work. Here are some of the key
-        skills that I bring to the table.</p>
-      <div className="container experience__container">
+      <div className="text_description">
+        <h1>Skills</h1>
+        <p>
+          As a developer, I possess a diverse skill set that enables me to
+          create innovative and efficient solutions. I constantly strive to stay
+          at the forefront of technological advancements, and my skills reflect
+          my commitment to delivering high-quality work. Here are some of the
+          key skills that I bring to the table.
+        </p>
+      </div>
+      <div className="experience__container">
         <article className="experience_details">
           <DiHtml5 />
           <h6>HTML</h6>
