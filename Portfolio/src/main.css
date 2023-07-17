@@ -59,6 +59,7 @@ a:hover {
 section {
   height: 100vh;
   margin-top: 4rem;
+  border: 1px solid green;
 }
 
 h1 {
