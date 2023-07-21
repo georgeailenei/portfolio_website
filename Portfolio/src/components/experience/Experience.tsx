@@ -13,53 +13,55 @@ import { TbSql } from "react-icons/tb";
 export const Experience = () => {
   return (
     <section id="experience">
-      <div className="text_description">
-        <h1>Skills</h1>
-        <p>
-          As a developer, I possess a diverse skill set that enables me to
-          create innovative and efficient solutions. I constantly strive to stay
-          at the forefront of technological advancements, and my skills reflect
-          my commitment to delivering high-quality work. Here are some of the
-          key skills that I bring to the table.
-        </p>
-      </div>
-      <div className="experience__container">
-        <article className="experience_details">
-          <DiHtml5 />
-          <h6>HTML</h6>
-        </article>
-        <article className="experience_details">
-          <SiCss3 />
-          <h6>CSS</h6>
-        </article>
-        <article className="experience_details">
-          <FaBootstrap />
-          <h6>Bootstrap</h6>
-        </article>
-        <article className="experience_details">
-          <SiJavascript />
-          <h6>JavaScript</h6>
-        </article>
-        <article className="experience_details">
-          <FaReact />
-          <h6>React</h6>
-        </article>
-        <article className="experience_details">
-          <FaVuejs />
-          <h6>Vue.js</h6>
-        </article>
-        <article className="experience_details">
-          <FaPython />
-          <h6>Python</h6>
-        </article>
-        <article className="experience_details">
-          <SiDjango />
-          <h6>Django</h6>
-        </article>
-        <article className="experience_details">
-          <TbSql />
-          <h6>SQL</h6>
-        </article>
+       <h2>Experience</h2>
+      <div className="container container__experience">
+        <div className="text_description">
+          <p>
+            As a developer, I possess a diverse skill set that enables me to
+            create innovative and efficient solutions. I constantly strive to
+            stay at the forefront of technological advancements, and my skills
+            reflect my commitment to delivering high-quality work. Here are some
+            of the key skills that I bring to the table.
+          </p>
+        </div>
+        <div className="experience__icons">
+          <article className="experience_details">
+            <DiHtml5 />
+            <h6>HTML</h6>
+          </article>
+          <article className="experience_details">
+            <SiCss3 />
+            <h6>CSS</h6>
+          </article>
+          <article className="experience_details">
+            <FaBootstrap />
+            <h6>Bootstrap</h6>
+          </article>
+          <article className="experience_details">
+            <SiJavascript />
+            <h6>JavaScript</h6>
+          </article>
+          <article className="experience_details">
+            <FaReact />
+            <h6>React</h6>
+          </article>
+          <article className="experience_details">
+            <FaVuejs />
+            <h6>Vue.js</h6>
+          </article>
+          <article className="experience_details">
+            <FaPython />
+            <h6>Python</h6>
+          </article>
+          <article className="experience_details">
+            <SiDjango />
+            <h6>Django</h6>
+          </article>
+          <article className="experience_details">
+            <TbSql />
+            <h6>SQL</h6>
+          </article>
+        </div>
       </div>
     </section>
   );

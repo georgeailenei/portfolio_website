@@ -1,19 +1,19 @@
 #experience {
-  padding-top: 4rem;
-  margin: auto;
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: var(--container-width-sm);
+}
+
+.container__experience {
+  padding-top: 2rem;
 }
 
 .text_description {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
-.experience__container {
+.experience__icons {
   font-size: 2rem;
   border: 1px solid var(--color-secondary);
   border-radius: 1rem;

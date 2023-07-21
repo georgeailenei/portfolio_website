@@ -22,6 +22,7 @@ nav a {
 
 nav a:hover {
   background: var(--color-secondary);
+  color: var(--color-white);
 }
 
 nav a.active {

@@ -5,8 +5,7 @@ import portfolio_item_01 from "../../assets/images/portfolio_item_01.jpg";
 export const Work = () => {
   return (
     <section id="work">
-      <h6>Recent Work</h6>
-      <h2>Portfolio</h2>
+      <h2>Recent Work</h2>
 
       <div className="portfolio__container">
         <article className="portfolio__item">
