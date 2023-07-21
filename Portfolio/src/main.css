@@ -3,7 +3,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background: var(--color-bg);
-  color: var(--color-white);
+  color: var(--color-secondary);
   line-height: 1.5;
 }
 
@@ -20,13 +20,13 @@ body {
 /* CSS variables - you can use these variables anywhere in the project */
 /* Not sure if I will use these colors, remember to choose different color pallete */
 :root {
-  --color-bg: #50514f;
+  --color-bg: #f5f5f7;
   --color-bg-variant: #70c1b3;
-  --color-primary: #198754;
+  --color-primary: #313131;
   --color-primary-variant: #1c5d79;
   --color-yellow: #ffe066;
   --color-white: #fff;
-  --color-secondary: #6c757d;
+  --color-secondary: #6f6e73;
 
   --container-width-sm: 50%;
   --container-width-md: 70%;
