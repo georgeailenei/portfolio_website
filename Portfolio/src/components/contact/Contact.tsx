@@ -1,13 +1,14 @@
 import React from "react";
 import "./contact.css";
-import contact from "../../assets/images/contact.jpg";
+import Lottie from "lottie-react";
+import animationData from "../../assets/animations/Contact.json";
 
 export const Contact = () => {
   return (
     <section id="contact">
-      <h2>Contact</h2>
+      <h2>Interesting in working together?</h2>
       <div className="container container__contact">
-        <img src={contact} className="contact__img" />
+        <Lottie animationData={animationData} />
         <form>
           <input
             type="text"
@@ -36,7 +37,7 @@ export const Contact = () => {
             placeholder="Your Message"
             required
           ></textarea>
-          <button type="submit" className="btn btn-success">
+          <button type="submit" className="btn btn-outline-success">
             Send
           </button>
         </form>

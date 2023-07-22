@@ -11,9 +11,9 @@
 }
 
 .container__contact {
+  width: var(--container-width-lg);
   display: flex;
   align-items: center;
-  gap: 5rem;
 }
 
 form {
