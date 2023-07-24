@@ -3,25 +3,29 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
-.container__experience {
-  padding-top: 1rem;
-}
-
-.text_description {
-  padding-bottom: 1rem;
+.container__two_collums {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
 
 .experience__icons {
   font-size: 2rem;
-  border: 1px solid var(--color-secondary);
-  border-radius: 1rem;
+  border: 2px solid var(--color-primary);
+  border-radius: 0.8rem;
   backdrop-filter: blur(15px);
   width: 100%;
+  color: var(--color-primary);
 }
 
 .experience_details {
   display: inline-block;
   padding: 0.5rem 1rem;
+}
+
+.experience__animation {
+  width: 75%;
 }

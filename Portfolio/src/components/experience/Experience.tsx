@@ -9,13 +9,18 @@ import { FaVuejs } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
 import { SiDjango } from "react-icons/si";
 import { TbSql } from "react-icons/tb";
+import Lottie from "lottie-react";
+import animationData from "../../assets/animations/Experience.json";
 
 export const Experience = () => {
   return (
     <section id="experience">
-       <h2>Experience</h2>
+      <h2>Experience</h2>
       <div className="container container__experience">
-        <div className="text_description">
+        <div className="container__two_collums">
+          <div className="experience__animation">
+            <Lottie animationData={animationData} />
+          </div>
           <p>
             As a developer, I possess a diverse skill set that enables me to
             create innovative and efficient solutions. I constantly strive to
