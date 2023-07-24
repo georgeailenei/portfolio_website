@@ -59,7 +59,7 @@ export const Experience = () => {
             <h6>Python</h6>
           </article>
           <article className="experience_details">
-            <SiDjango />
+            <BiLogoDjango />
             <h6>Django</h6>
           </article>
           <article className="experience_details">
