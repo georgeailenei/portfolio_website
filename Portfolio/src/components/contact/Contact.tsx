@@ -2,6 +2,7 @@ import React from "react";
 import "./contact.css";
 import Lottie from "lottie-react";
 import animationData from "../../assets/animations/Contact.json";
+import { AiOutlineWhatsApp } from "react-icons/ai";
 
 export const Contact = () => {
   return (
@@ -37,8 +38,11 @@ export const Contact = () => {
             placeholder="Your Message"
             required
           ></textarea>
-          <button type="submit" className="btn btn-outline-success">
+          <button type="submit" className="btn btn-outline-secondary">
             Send
+          </button>
+          <button type="button" className="btn btn-outline-success">
+            WhatsApp <AiOutlineWhatsApp />
           </button>
         </form>
       </div>
