@@ -14,7 +14,7 @@
 
 .experience__icons {
   font-size: 2rem;
-  border: 2px solid var(--color-primary);
+  border: 1px solid var(--color-primary);
   border-radius: 0.8rem;
   backdrop-filter: blur(15px);
   width: 100%;
@@ -27,5 +27,5 @@
 }
 
 .experience__animation {
-  width: 75%;
+  width: 85%;
 }

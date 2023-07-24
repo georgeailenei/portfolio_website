@@ -1,13 +1,13 @@
 import React from "react";
 import "./experience.css";
-import { SiJavascript } from "react-icons/si";
-import { DiHtml5 } from "react-icons/di";
-import { SiCss3 } from "react-icons/si";
-import { FaBootstrap } from "react-icons/fa";
-import { FaReact } from "react-icons/fa";
-import { FaVuejs } from "react-icons/fa";
-import { FaPython } from "react-icons/fa";
-import { SiDjango } from "react-icons/si";
+import { BiLogoJavascript } from "react-icons/bi";
+import { BiLogoHtml5 } from "react-icons/bi";
+import { BiLogoCss3 } from "react-icons/bi";
+import { BiLogoBootstrap } from "react-icons/bi";
+import { BiLogoReact } from "react-icons/bi";
+import { BiLogoVuejs } from "react-icons/bi";
+import { BiLogoPython } from "react-icons/bi";
+import { BiLogoDjango } from "react-icons/bi";
 import { TbSql } from "react-icons/tb";
 import Lottie from "lottie-react";
 import animationData from "../../assets/animations/Experience.json";
@@ -31,31 +31,31 @@ export const Experience = () => {
         </div>
         <div className="experience__icons">
           <article className="experience_details">
-            <DiHtml5 />
+            <BiLogoHtml5 />
             <h6>HTML</h6>
           </article>
           <article className="experience_details">
-            <SiCss3 />
+            <BiLogoCss3 />
             <h6>CSS</h6>
           </article>
           <article className="experience_details">
-            <FaBootstrap />
+            <BiLogoBootstrap />
             <h6>Bootstrap</h6>
           </article>
           <article className="experience_details">
-            <SiJavascript />
+            <BiLogoJavascript />
             <h6>JavaScript</h6>
           </article>
           <article className="experience_details">
-            <FaReact />
+            <BiLogoReact />
             <h6>React</h6>
           </article>
           <article className="experience_details">
-            <FaVuejs />
+            <BiLogoVuejs />
             <h6>Vue.js</h6>
           </article>
           <article className="experience_details">
-            <FaPython />
+            <BiLogoPython />
             <h6>Python</h6>
           </article>
           <article className="experience_details">
