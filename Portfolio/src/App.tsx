@@ -16,7 +16,7 @@ function App() {
       <Header />
       <Experience />
       <Work />
-      <References />
+      {/* <References /> */}
       <Contact />
       <Navigation />
     </>
