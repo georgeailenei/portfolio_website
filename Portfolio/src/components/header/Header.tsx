@@ -23,7 +23,7 @@ export const Header = () => {
         >
           An aspiring programmer.
         </motion.h1>
-        <div className="profile-picture__position">
+        <div>
           <motion.img
             className="profile-picture"
             src={profile_picture}

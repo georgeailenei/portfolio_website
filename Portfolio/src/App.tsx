@@ -14,10 +14,10 @@ function App() {
       {/* <ListGroup /> */}
 
       <Header />
-      <Experience />
-      <Work />
+      {/* <Experience />
+      <Work /> */}
       {/* <References /> */}
-      <Contact />
+      {/* <Contact /> */}
       <Navigation />
     </>
   );
