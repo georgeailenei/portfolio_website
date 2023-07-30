@@ -34,13 +34,13 @@ export const Navigation = () => {
       >
         <MdWorkHistory />
       </a>
-      <a
+      {/* <a
         href="#references"
         onClick={() => setActiveNav("#references")}
         className={activeNav === "#references" ? "active" : ""}
       >
         <VscReferences />
-      </a>
+      </a> */}
       <a
         href="#contact"
         onClick={() => setActiveNav("#contact")}
