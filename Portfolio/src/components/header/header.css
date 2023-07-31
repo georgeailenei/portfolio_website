@@ -9,6 +9,7 @@ header {
   align-items: center;
   justify-content: center;
   text-align: center;
+  padding-top: 6vh;
 }
 
 .buttons {
@@ -35,7 +36,6 @@ p {
   margin-top: 2rem;
 }
 
-
 .about-text {
   margin-top: 2rem;
 }
@@ -54,5 +54,9 @@ p {
   }
   header .container {
     width: var(--container-width-lg);
+  }
+
+  .buttons a {
+    font-size: small;
   }
 }
