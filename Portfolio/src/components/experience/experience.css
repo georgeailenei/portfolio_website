@@ -29,3 +29,12 @@
 .experience__animation {
   width: 85%;
 }
+
+@media screen and (max-width: 600px) {
+  section {
+    margin: auto;
+  }
+  .container__two_collums {
+    grid-template-columns: 1fr;
+  }
+}
