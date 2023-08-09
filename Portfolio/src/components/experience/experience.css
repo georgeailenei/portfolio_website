@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 .container__two_collums {
@@ -32,7 +31,6 @@
 
 @media screen and (max-width: 600px) {
   section {
-    margin: auto;
   }
   .container__two_collums {
     grid-template-columns: 1fr;

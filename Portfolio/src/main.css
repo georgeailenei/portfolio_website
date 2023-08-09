@@ -56,7 +56,6 @@ a:hover {
 section {
   height: 100vh;
   margin-top: 4rem;
-  min-height: fit-content;
 }
 
 h1,

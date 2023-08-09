@@ -11,16 +11,14 @@ import { NavbarTest } from "./components/navbarTest/NavbarTest";
 function App() {
   return (
     <>
-      <NavbarTest />
-      {/* remove the component when you are done testing */}
-      {/* <ListGroup /> */}
+      {/* <NavbarTest /> */}
 
-      {/* <Header />
-      <Experience /> */}
-      {/* <Work />  */}
+      <Header />
+      <Experience />
+      {/* <Work /> */}
       {/* <References /> */}
       {/* <Contact /> */}
-      {/* <Navigation /> */}
+      <Navigation />
     </>
   );
 }
