@@ -14,7 +14,7 @@ function App() {
       {/* <NavbarTest /> */}
 
       <Header />
-      <Experience />
+      {/* <Experience /> */}
       {/* <Work /> */}
       {/* <References /> */}
       {/* <Contact /> */}
