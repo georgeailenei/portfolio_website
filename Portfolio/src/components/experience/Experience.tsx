@@ -21,7 +21,7 @@ export const Experience = () => {
           <div className="experience__animation">
             <Lottie animationData={animationData} />
           </div>
-          <p>
+          <p className="experience__text">
             As a developer, I possess a diverse skill set that enables me to
             create innovative and efficient solutions. I constantly strive to
             stay at the forefront of technological advancements, and my skills

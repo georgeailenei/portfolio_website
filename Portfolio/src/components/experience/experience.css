@@ -30,9 +30,28 @@
 }
 
 @media screen and (max-width: 600px) {
-  section {
+  #experience {
+    display: block;
+    margin-top: 10rem;
+    padding-top: 2rem;
   }
+
+  section .container__experience {
+    width: var(--container-width-lg);
+  }
+
   .container__two_collums {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+  }
+  .experience__animation {
+    margin-top: -1rem;
+  }
+  .experience__text {
+    margin-top: -2rem;
+  }
+
+  .experience__icons {
+    margin-top: 1rem;
   }
 }
