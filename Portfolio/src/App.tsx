@@ -4,20 +4,14 @@ import { Header } from "./components/header/Header";
 import { Work } from "./components/work/Work";
 import { Contact } from "./components/contact/Contact";
 import { Experience } from "./components/experience/Experience";
-import { NavbarTest } from "./components/navbarTest/NavbarTest";
-
-// import { References } from "./components/references/References";
 
 function App() {
   return (
     <>
-      {/* <NavbarTest /> */}
-
       <Header />
       <Experience />
-      {/* <Work /> */}
-      {/* <References /> */}
-      {/* <Contact /> */}
+      <Work />
+      <Contact />
       <Navigation />
     </>
   );
