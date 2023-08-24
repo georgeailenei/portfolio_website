@@ -23,15 +23,11 @@ form {
 }
 
 @media screen and (max-width: 600px) {
-  /* #contact {
-    display: block;
-  }
-
-  section .container__contact {
+  .container.container__contact {
     width: var(--container-width-lg);
   }
 
   .contact__form {
     display: block;
-  } */
+  }
 }
