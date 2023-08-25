@@ -42,9 +42,13 @@ export const Contact = () => {
             <button type="submit" className="btn btn-outline-secondary">
               Send
             </button>
-            <button type="button" className="btn btn-outline-success">
-              WhatsApp <AiOutlineWhatsApp />
-            </button>
+            <a
+              className="btn btn-outline-success"
+              href="https://wa.me/+447577203818"
+            >
+              <span className="whatsapp__text">WhatsApp</span>
+              <AiOutlineWhatsApp />
+            </a>
           </form>
         </div>
       </div>

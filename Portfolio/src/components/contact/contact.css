@@ -22,6 +22,10 @@ form {
   gap: 1rem;
 }
 
+.whatsapp__text {
+  margin-right: 0.2rem;
+}
+
 @media screen and (max-width: 600px) {
   .container.container__contact {
     width: var(--container-width-lg);
