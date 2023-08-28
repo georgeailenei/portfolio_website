@@ -37,14 +37,6 @@ p {
   margin-top: 2rem;
 }
 
-.scroll-down {
-  position: absolute;
-  top: 6rem;
-  transform: rotate(90deg);
-  right: -10rem;
-  font-size: large;
-}
-
 @media screen and (max-width: 600px) {
   header .scroll-down {
     display: none;

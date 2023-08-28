@@ -2,7 +2,7 @@ import React from "react";
 import "./header.css";
 import { Buttons } from "./Buttons";
 import { Socials } from "./Socials";
-import profile_picture from "../../assets/images/profile_photo.jpg";
+import profile_picture from "../../assets/images/profile_photo.png";
 import { motion } from "framer-motion";
 
 export const Header = () => {
@@ -67,15 +67,6 @@ export const Header = () => {
           <Buttons />
           <Socials />
         </motion.div>
-        <motion.a
-          animate={{ opacity: 1 }}
-          initial={{ opacity: 0 }}
-          transition={{ duration: 1, delay: 1.5 }}
-          href="#contact"
-          className="scroll-down"
-        >
-          Scroll Down
-        </motion.a>
       </div>
     </header>
   );
