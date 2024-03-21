@@ -5,9 +5,9 @@ import animationData from "../../assets/animations/Contact.json";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
-import { ModalContact } from "./ModalContact";
+import ModalContact from "./ModalContact";
 
-export const Contact = () => {
+export default function Contact() {
   const form = useRef();
   const [modalShow, setModalShow] = React.useState(false);
 
@@ -76,4 +76,4 @@ export const Contact = () => {
       </section>
     </>
   );
-};
+}

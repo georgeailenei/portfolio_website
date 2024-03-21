@@ -1,18 +1,19 @@
-import React from "react";
 import "./experience.css";
-import { BiLogoJavascript } from "react-icons/bi";
-import { BiLogoHtml5 } from "react-icons/bi";
-import { BiLogoCss3 } from "react-icons/bi";
-import { BiLogoBootstrap } from "react-icons/bi";
-import { BiLogoReact } from "react-icons/bi";
-import { BiLogoVuejs } from "react-icons/bi";
-import { BiLogoPython } from "react-icons/bi";
-import { BiLogoDjango } from "react-icons/bi";
+import {
+  BiLogoReact,
+  BiLogoBootstrap,
+  BiLogoCss3,
+  BiLogoJavascript,
+  BiLogoHtml5,
+  BiLogoVuejs,
+  BiLogoPython,
+  BiLogoDjango,
+} from "react-icons/bi";
 import { TbSql } from "react-icons/tb";
 import Lottie from "lottie-react";
 import animationData from "../../assets/animations/Experience.json";
 
-export const Experience = () => {
+export default function Experience() {
   return (
     <section id="experience">
       <h2>Experience</h2>
@@ -70,4 +71,4 @@ export const Experience = () => {
       </div>
     </section>
   );
-};
+}

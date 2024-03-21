@@ -1,19 +1,13 @@
-import React from "react";
 import "./references.css";
-import profile_picture from "../../assets/images/profile_photo.jpg";
-import {
-  Pagination,
-  Navigation,
-  Autoplay,
-  EffectCoverflow,
-} from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/autoplay";
+import profile_picture from "../../assets/images/profile_photo.jpg";
+import { EffectCoverflow } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-export const References = () => {
+export default function References() {
   return (
     <section id="references">
       <h2>References</h2>
@@ -82,4 +76,4 @@ export const References = () => {
       </Swiper>
     </section>
   );
-};
+}

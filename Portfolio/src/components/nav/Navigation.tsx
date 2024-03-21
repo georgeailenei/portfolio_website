@@ -1,13 +1,13 @@
-import React from "react";
-import { useState } from "react";
-
 import "./nav.css";
-import { AiFillAppstore } from "react-icons/ai";
-import { AiFillExperiment } from "react-icons/ai";
-import { AiFillMessage } from "react-icons/ai";
-import { AiFillFolderOpen } from "react-icons/ai";
+import { useState } from "react";
+import {
+  AiFillMessage,
+  AiFillExperiment,
+  AiFillAppstore,
+  AiFillFolderOpen,
+} from "react-icons/ai";
 
-export const Navigation = () => {
+export default function Navigation() {
   const [activeNav, setActiveNav] = useState("#");
 
   return (
@@ -42,4 +42,4 @@ export const Navigation = () => {
       </a>
     </nav>
   );
-};
+}

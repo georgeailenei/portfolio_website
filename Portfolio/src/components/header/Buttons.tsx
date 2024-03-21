@@ -1,6 +1,4 @@
-import React from "react";
-
-export const Buttons = () => {
+export default function Buttons() {
   return (
     <div className="buttons">
       <a href="" className="btn btn-outline-secondary">
@@ -11,4 +9,4 @@ export const Buttons = () => {
       </a>
     </div>
   );
-};
+}

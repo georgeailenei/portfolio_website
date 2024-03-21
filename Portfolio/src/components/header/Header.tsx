@@ -1,11 +1,10 @@
-import React from "react";
 import "./header.css";
-import { Buttons } from "./Buttons";
+import Buttons from "./Buttons";
 import { Socials } from "./Socials";
 import profile_picture from "../../assets/images/profile_photo.png";
 import { motion } from "framer-motion";
 
-export const Header = () => {
+export default function Header() {
   return (
     <header>
       <div className="container header__container">
@@ -70,4 +69,4 @@ export const Header = () => {
       </div>
     </header>
   );
-};
+}
