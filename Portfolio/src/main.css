@@ -17,8 +17,6 @@ body {
   line-height: 1.5;
 }
 
-/* CSS variables - you can use these variables anywhere in the project */
-/* Not sure if I will use these colors, remember to choose different color pallete */
 :root {
   --color-bg: #f5f5f7;
   --color-primary: #313131;

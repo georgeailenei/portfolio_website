@@ -2,7 +2,7 @@ import React from "react";
 import "./work.css";
 import portfolio_item_01 from "../../assets/images/portfolio_item_01.jpg";
 
-export const Work = () => {
+export default function Work() {
   return (
     <section id="work">
       <h2>Recent Work</h2>
@@ -49,4 +49,4 @@ export const Work = () => {
       </div>
     </section>
   );
-};
+}

@@ -29,7 +29,7 @@
   width: 85%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
   #experience {
     display: block;
     margin-top: 10rem;
@@ -46,9 +46,6 @@
   }
   .experience__animation {
     margin-top: -1rem;
-  }
-  .experience__text {
-    margin-top: -2rem;
   }
 
   .experience__icons {
